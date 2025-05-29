@@ -17,3 +17,13 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- Set up colorscheme --
+--vim.opt.background = "dark" -- or "light" for light mode
+--vim.cmd([[let g:gruvbox_termcolors=16]])
+--vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme default]])
+vim.cmd([[set notermguicolors]])
+vim.cmd([[set t_Co=16]])
+vim.cmd([[set t_Sf=^[[3%dm]])
+vim.cmd([[set t_Sb=^[[4%dm]])
