@@ -113,6 +113,10 @@ return {
         })
       end,
     },
+    prompt_library = {
+    
+
+    },
     strategies = {
       -- Change the default chat adapter
       chat = {
